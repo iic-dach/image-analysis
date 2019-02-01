@@ -1,0 +1,16 @@
+{
+  "name": "image-analysis",
+  "version": "1.0.1",
+  "author": "Klaus-Peter Schlotter",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "node-fetch": "^2.3.0",
+    "watson-developer-cloud": "^3.16.1"
+  }
+}

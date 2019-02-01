@@ -1,0 +1,6 @@
+applications:
+  - name: xxximageanalysis
+    path: .
+    buildpack: sdk-for-nodejs
+    command: node app.js
+    memory: 256M

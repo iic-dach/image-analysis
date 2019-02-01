@@ -1,0 +1,49 @@
+.form-control {
+	width: 70%;
+	margin: 10px 0;
+}
+
+.image-container img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+
+.image-result {
+	position: fixed;
+	z-index: 11;
+	width: 100%;
+	background-color: #000;
+	opacity: .7;
+	bottom: -85px;
+}
+
+.image-result h1,
+.image-result h2,
+.image-result h3 {
+	margin: 0px;
+	color: #FFF;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.image-result h2 {
+	padding: 10px 10px 5px 10px;
+}
+
+.image-result h3 {
+	padding: 0px 10px 10px 10px;
+}
+
+.image-result .play {
+	color: #FFF;
+	padding: 30px 20px;
+}
+
+.image-result .play a {
+	color: #FFF;
+}
+
+#play-sound {
+	cursor: pointer;
+}
