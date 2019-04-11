@@ -1,33 +1,7 @@
-*********************** LAB 01- Step 1 **********************************
-cf login -u <your Bluemix user account>
-
-*********************** LAB 01 Step 2 a) ********************************
-cf marketplace -s watson_vision_combined
-
-*********************** LAB 01 Step 2 b) ********************************
-cf create-service watson_vision_combined free my-visual-recognition
-
-*********************** LAB 01 Step 2 c) ********************************
-cf create-service-key my-visual-recognition credentials-1
-
-*********************** LAB 01 Step 2 d) ********************************
-cf service-key my-visual-recognition credentials-1
-
-*********************** LAB 01 Step 3 a) ********************************
-cf create-service text_to_speech standard my-text-to-speech
-
-*********************** LAB 01 Step 3 b) ********************************
-cf create-service-key my-text-to-speech credentials-1
-
-*********************** LAB 01 Step 3 c) ********************************
-cf service-key my-text-to-speech credentials-1
-
-
-
-*********************** LAB 01 Step 7 ***********************************
+*********************** LAB 01 Step 5 ***********************************
 https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_II_March_2015.jpg/455px-Queen_Elizabeth_II_March_2015.jpg
 
-*********************** LAB 01 Step 8 a) ********************************
+*********************** LAB 01 Step 6 c) ********************************
 https://gateway-a.watsonplatform.net/visual-recognition/api
 
 /v3/classify
@@ -36,26 +10,26 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_II_Mar
 
 &version=2016-05-19  
 
-*********************** LAB 01 Step 11 **********************************
+*********************** LAB 01 Step 8 **********************************
 https://gateway-a.watsonplatform.net/visual-recognition/api/v3/detect_faces?api_key=18c455xxxxxxxxxxxxxxxxxxxxxxxxxxx3d0&version=2016-05-20
 
 *********************** LAB 01 Step 13 d) *******************************
 {
-"text":"Hello",
+"text":"Hello, how are you?",
 "source":"en",
 "target":"de"
 }
 
-*********************** LAB 01 Step 15 a) *******************************
-https://stream.watsonplatform.net/text-tospeech/api/v1/synthesize
+*********************** LAB 01 Step 13 a) *******************************
+https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize
 
-*********************** LAB 01 Step 15 b) *******************************
+*********************** LAB 01 Step 13 b) *******************************
 ?voice=de-DE_BirgitVoice
 
-*********************** LAB 01 Step 15 e) *******************************
+*********************** LAB 01 Step 13 e) *******************************
 {"text": "Hallo Welt"}
 
-*********************** LAB 01 Step 19 a) *******************************
+*********************** LAB 01 Step 17 a) *******************************
 git clone https://github.com/iic-dach/image-analysis.git
 
 *********************** END - LAB 01 **********************************
