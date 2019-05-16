@@ -11,7 +11,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_II_Mar
 &version=2016-05-19  
 
 *********************** LAB 01 Step 8 **********************************
-https://gateway-a.watsonplatform.net/visual-recognition/api/v3/detect_faces?api_key=18c455xxxxxxxxxxxxxxxxxxxxxxxxxxx3d0&version=2016-05-20
+https://<yourServiceUrl>/v3/detect_faces?api_key=18c455xxxxxxxxxxxxxxxxxxxxxxxxxxx3d0&version=2016-05-20
 
 *********************** LAB 01 Step 13 d) *******************************
 {
@@ -21,7 +21,7 @@ https://gateway-a.watsonplatform.net/visual-recognition/api/v3/detect_faces?api_
 }
 
 *********************** LAB 01 Step 13 a) *******************************
-https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize
+https://<yourServiceUrl>/v1/synthesize
 
 *********************** LAB 01 Step 13 b) *******************************
 ?voice=de-DE_BirgitVoice
