@@ -2,7 +2,7 @@
 https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_II_March_2015.jpg/455px-Queen_Elizabeth_II_March_2015.jpg
 
 *********************** LAB 01 Step 6 c) ********************************
-https://gateway-a.watsonplatform.net/visual-recognition/api
+https://<yourServiceUrl>
 
 /v3/classify
 
