@@ -9,8 +9,8 @@
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
+    "ibm-watson": "^4.4.0",
     "multer": "^1.4.1",
-    "node-fetch": "^2.3.0",
-    "watson-developer-cloud": "^3.16.1"
+    "node-fetch": "^2.3.0"
   }
 }

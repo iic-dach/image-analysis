@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-const VisualRecognitionV3 = require('watson-developer-cloud/visual-recognition/v3');
-const LanguageTranslatorV3 = require('watson-developer-cloud/language-translator/v3');
-var TextToSpeechV1 = require('watson-developer-cloud/text-to-speech/v1');
+const VisualRecognitionV3 = require('ibm-watson/visual-recognition/v3');
+const LanguageTranslatorV3 = require('ibm-watson/language-translator/v3');
+var TextToSpeechV1 = require('ibm-watson/text-to-speech/v1');
 
 const config = require('../config');
 
@@ -84,7 +84,7 @@ exports.speak = function(req, res, next) {
     if (err) {
       return next(err);
     } else {
-      res.end(result);
+      result.pipe(res);
     }
   });
 };
