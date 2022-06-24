@@ -11,6 +11,6 @@
     "express": "^4.16.4",
     "ibm-watson": "^4.4.0",
     "multer": "^1.4.1",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.7"
   }
 }
